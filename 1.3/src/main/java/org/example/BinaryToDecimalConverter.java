@@ -12,6 +12,7 @@ public class BinaryToDecimalConverter {
 
         int decimal = 0;
         int length = binaryString.length();
+        System.out.println("The length is: " + length);
 
         for (int i = 0; i < length; i++) {
 

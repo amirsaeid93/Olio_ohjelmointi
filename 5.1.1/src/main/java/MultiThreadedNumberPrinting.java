@@ -42,8 +42,8 @@ class NumberPrinter {
 
 public class MultiThreadedNumberPrinting {
     public static void main(String[] args) {
-        int start = 1; // Starting number
-        int end = 20;  // Ending number
+        int start = 1;
+        int end = 20;
 
         NumberPrinter printer = new NumberPrinter(start, end);
 

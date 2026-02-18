@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="view.NoteViewController">
+    <TextField fx:id="titleField" promptText="Title" />
+    <TextArea fx:id="contentArea" promptText="Content" />
+    <Button text="Add Note" onAction="#handleAddNote" />
+    <TextArea fx:id="notesDisplay" editable="false" />
+</VBox>

@@ -1,13 +1,13 @@
 USE currency_db;
 
--- 1. Retrieve all currencies
+-- 1. This retrieves all the currencies
 SELECT * FROM currency;
 
--- 2. Retrieve the currency with the abbreviation EUR
+-- 2. This retrieves the currency with the abbreviation EUR
 SELECT * FROM currency WHERE abbreviation = 'EUR';
 
--- 3. Retrieve the number of currencies in the database
+-- 3. This retrieves the number of currencies in the database
 SELECT COUNT(*) FROM currency;
 
--- 4. Retrieve the currency with the highest exchange rate
+-- 4. This retrieves the currency with the highest exchange rate
 SELECT * FROM currency ORDER BY rate DESC LIMIT 1;

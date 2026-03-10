@@ -51,6 +51,7 @@
         <module name="6.4" />
         <module name="7.3" />
         <module name="5.2.2" />
+        <module name="7.4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
